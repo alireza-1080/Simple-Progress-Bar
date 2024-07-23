@@ -1,0 +1,25 @@
+.tool-tip-container {
+    background-color: #4070f4;
+    padding: 2px 5px;
+    width: 32.6px;
+    color: #fff;
+    font-size: 0.7rem;
+    border-radius: 5px;
+    position: relative;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.tool-tip-feature {
+    width: 15px;
+    height: 15px;
+    background-color: #4070f4;
+    position: absolute;
+    transform: rotateZ(45deg);
+    bottom: -1px;
+    z-index: -1;
+}

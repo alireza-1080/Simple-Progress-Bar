@@ -1,0 +1,23 @@
+.body{
+  width: 100vw;
+  height: 100vh;
+  background-color: #4070f4;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.app-container {
+  width: fit-content;
+  height: fit-content;
+  background-color: #fff;
+  padding: 2rem 1.5rem;
+  border-radius: 10px;
+
+  display: grid;
+  grid-row: 1fr;
+  row-gap: 2rem;
+}
